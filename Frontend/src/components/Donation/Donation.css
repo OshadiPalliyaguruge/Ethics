@@ -1,0 +1,214 @@
+/* General donation page styling */
+.donation-page {
+  font-family: 'Poppins', sans-serif;
+  padding: 50px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.donation-heading {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.donation-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.donation-image {
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+.donation-description {
+  max-width: 600px;
+  text-align: left;
+}
+
+.donation-description h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.donation-description p {
+  font-size: 1.1rem;
+}
+
+/* Donation Process Section */
+.process-heading {
+  font-size: 2.5rem;
+  margin: 40px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.donation-steps {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.step {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.step:hover {
+  transform: translateY(-10px);
+}
+
+.process-image {
+  max-width: 200px; /* Reduced size */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.step h4 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.step p {
+  font-size: 1rem;
+}
+
+/* Donate Now Button Styling */
+button {
+  padding: 16px 30px;
+  background: linear-gradient(45deg,#612e29, #6d3b22);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #612e29, #6d3b22);
+  transform: translateY(-5px);
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+/* Donation form styling */
+.donation-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.donation-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, select {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+/* Donate Now Button Styling */
+.donate-button {
+  width: 30%;
+  padding: 12px 30px; /* Adjust padding for smaller button */
+  background: linear-gradient(45deg, #612e29, #6d3b22); /* Gradient background */
+  color: white;
+  border: none;
+  border-radius: 50px; /* Fully rounded corners */
+  font-size: 1.4rem; /* Keep a larger font size */
+  font-weight: bold; /* Bold text for emphasis */
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  margin: 30px auto; /* Centered and space from top */
+  display: inline-block; /* Make button inline for smaller size */
+  transition: all 0.3s ease; /* Smooth transition for all changes */
+  outline: none; /* Remove outline when focused */
+}
+
+/* Button Hover Effects */
+.donate-button:hover {
+  background: linear-gradient(45deg, #6d3d25, #531f1a); /* Reverse gradient on hover */
+  transform: translateY(-5px); /* Lift the button slightly */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Button Active Effects */
+.donate-button:active {
+  transform: translateY(2px); /* Button appears pressed */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Reduce shadow when clicked */
+}
+
+/* Button Focus Effects */
+.donate-button:focus {
+  outline: none; /* Remove default outline on focus */
+  box-shadow: 0 0 5px 3px rgba(0, 0, 255, 0.3); /* Subtle blue glow for focus */
+}
+
+
+button:hover {
+  background-color: #555e09;
+}
+
+/* Donation info section styling */
+.donation-info {
+  background-color: #e7f7ff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: left;
+}
+
+.donation-info h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.donation-info ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 1.1rem;
+}
+
+.donation-info p {
+  font-size: 1.1rem;
+  margin-top: 20px;
+}

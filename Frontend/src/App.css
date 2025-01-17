@@ -1,0 +1,47 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+  /* background-image: url('./assets/background2.png'); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.problem-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.problem-list li {
+  margin-bottom: 10px;
+}
+
+.problem-list li a {
+  text-decoration: none;
+  color: #062546;
+}
+
+.problem-list li a:hover {
+  text-decoration: underline;
+}
+
+.navbar-nav .nav-item .nav-link {
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #5e5003; /* Gold color on hover */
+}
