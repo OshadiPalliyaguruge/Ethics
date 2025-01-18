@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Ethics/static/css/main.5ff7dbb5.css",
+    "main.js": "/Ethics/static/js/main.030dd0d9.js",
+    "static/media/Raise_Awareness.png": "/Ethics/static/media/Raise_Awareness.207add0e6aa8fb35b543.png",
+    "static/media/See_the_Impact.png": "/Ethics/static/media/See_the_Impact.ef01285cd31f433b1d55.png",
+    "static/media/Make_a_Donation.png": "/Ethics/static/media/Make_a_Donation.470b055dfd5b3858dab6.png",
+    "static/media/amount.jpeg": "/Ethics/static/media/amount.6eff726084f67a310c6d.jpeg",
+    "static/media/testimonial-image.jpg": "/Ethics/static/media/testimonial-image.46d91c36fbc18d193646.jpg",
+    "static/media/3.jpg": "/Ethics/static/media/3.12cfb3205e4c6a52a0fb.jpg",
+    "static/media/method.jpg": "/Ethics/static/media/method.d4f74aaee3cbae67f7cd.jpg",
+    "static/media/impact-image.jpg": "/Ethics/static/media/impact-image.f239babfd786b80cc560.jpg",
+    "static/media/mission-image.jpg": "/Ethics/static/media/mission-image.06e94bb3fd3341f8cc9c.jpg",
+    "static/media/donation-image.jpg": "/Ethics/static/media/donation-image.aedb2da3104f1243dc07.jpg",
+    "index.html": "/Ethics/index.html",
+    "main.5ff7dbb5.css.map": "/Ethics/static/css/main.5ff7dbb5.css.map",
+    "main.030dd0d9.js.map": "/Ethics/static/js/main.030dd0d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ff7dbb5.css",
+    "static/js/main.030dd0d9.js"
+  ]
+}
